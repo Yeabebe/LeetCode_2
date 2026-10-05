@@ -1,3 +1,5 @@
+from typing import TreeNode
+
 class Solution:
     def deleteNode(self, root: TreeNode | None, key: int) -> TreeNode | None:
         if not root:
