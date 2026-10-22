@@ -1,3 +1,5 @@
+from typing import List 
+
 class Solution:
     def totalHammingDistance(self, nums: list[int]) -> int:
         n = len(nums)
