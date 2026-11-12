@@ -1,3 +1,5 @@
+from typing import list    
+
 class Solution:
     def checkSubarraySum(self, nums: list[int], k: int) -> bool:
         remainder_map = {0: -1}
