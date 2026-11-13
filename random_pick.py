@@ -1,9 +1,10 @@
-import random, list 
+import random
 import bisect
+from typing import List 
 
 class Solution:
 
-    def __init__(self, w: list[int]):
+    def __init__(self, w: List[int]):
         self.prefix = []
         total = 0
 
